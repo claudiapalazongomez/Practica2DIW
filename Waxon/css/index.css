@@ -1,0 +1,144 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*NAV*/
+.nav-link {
+  font-weight: 650;
+}
+
+.navbar-nav {
+  margin-right: 7em;
+}
+
+.small-logo {
+  max-width: 60px; /* Ajusta el valor según el tamaño deseado */
+  max-height: 60px;
+  margin-left: 7em;
+}
+
+@media screen and (max-width: 992px) {
+  .bg-color {
+    background-color: white;
+  }
+
+  .small-logo {
+    margin-left: 0em;
+  }
+}
+
+/*HOME*/
+.bg-image {
+  background-image: url("../images/home.jpg");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: right;
+  height: 100vh;
+}
+
+.infoName {
+  margin-top: 15%;
+}
+
+.nameStyle {
+  -webkit-text-stroke: 1px #000000;
+  color: transparent;
+}
+
+.name {
+  font-weight: 1000;
+  font-size: 6em;
+}
+
+.creative {
+  font-style: italic;
+  font-size: medium;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+  .bg-image {
+    background-size: 70%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .bg-image {
+    background-size: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .name {
+    font-size: 4em;
+  }
+
+  .bg-image {
+    background-size: 100% 80%; /* Ajusta el valor según tus necesidades */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .infoName {
+    margin-top: 40%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .infoName {
+    margin-top: 70%;
+  }
+}
+
+/*ABOUT*/
+.bg {
+  font-size: 100px;
+  opacity: 0.1;
+  line-height: 0;
+  -webkit-text-stroke: 1px #000;
+  position: absolute;
+  color: transparent;
+}
+
+.name2 {
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+.btn-custom {
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #343a40;
+}
+
+@media screen and (max-width: 992px) {
+  .bg,
+  .bg2 {
+    overflow: hidden;
+  }
+}
+
+/*PORTFOLIO*/
+.bg2 {
+  font-size: 150px;
+  opacity: 0.1;
+  line-height: 0;
+  -webkit-text-stroke: 1px #000;
+  position: absolute;
+  color: transparent;
+}
+
+.name3 {
+  font-size: 40px;
+  font-weight: 1000;
+}
