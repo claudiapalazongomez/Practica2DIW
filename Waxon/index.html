@@ -9,6 +9,10 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,7 +39,7 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon custom-toggler-icon"></span>
             </button>
             <div
               class="collapse navbar-collapse justify-content-end"
@@ -208,13 +212,149 @@
         </section>
 
         <!--PORTFOLIO-->
-        <section class="px-5 py-5">
+        <section class="px-5 py-5 bg-body-tertiary">
           <div class="container py-5" id="portfolio">
             <div>
               <h3 class="name3">
                 <span class="bg2">PORTFOLIO</span>
                 FEATURED WORKS
               </h3>
+            </div>
+            <!-- SOLO SE MOSTRARÁ EN <992pix-->
+            <div>
+              <ul class="navbar-nav listaOculta">
+                <li class="nav-item">
+                  <a class="nav-link text-black px-2">All</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black px-2">Video</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black px-2">Youtube</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black px-2">SoundCloud</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black px-2">ModalBox</a>
+                </li>
+              </ul>
+            </div>
+            <!-- SOLO SE MOSTRARÁ EN >992pix-->
+            <nav class="navbar">
+              <div class="container-fluid justify-content-end">
+                <button
+                  class="navbar-toggler custom-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon custom-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav listaOculta">
+                    <li class="nav-item">
+                      <a class="nav-link text-black px-2">All</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black px-2">Video</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black px-2">Youtube</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black px-2">SoundCloud</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black px-2">ModalBox</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+              <div class="col py-3">
+                <div class="card border-0 photos">
+                  <img
+                    src="images/cherry.jpg"
+                    class="card-img-top"
+                    alt="Sweet Cherry"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Sweet Cherry</h5>
+                    <p class="card-text text-muted">Video</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col py-3">
+                <div class="card border-0 photos">
+                  <img
+                    src="images/avocado.jpg"
+                    class="card-img-top"
+                    alt="Delicious Fruit"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Delicious Fruit</h5>
+                    <p class="card-text text-muted">Youtube</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col py-3">
+                <div class="card border-0 photos">
+                  <img
+                    src="images/orange.jpg"
+                    class="card-img-top"
+                    alt="Blue Lemon"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Blue Lemon</h5>
+                    <p class="card-text text-muted">Soundcloud</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col py-3">
+                <div class="card border-0 photos">
+                  <img
+                    src="images/telephone.jpg"
+                    class="card-img-top"
+                    alt="Yellow Phone"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Yellow Phone</h5>
+                    <p class="card-text text-muted">Image</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col py-3">
+                <div class="card border-0 photos">
+                  <img
+                    src="images/icecream.jpg"
+                    class="card-img-top"
+                    alt="Ice Cream"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Ice Cream</h5>
+                    <p class="card-text text-muted">Image</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col py-3">
+                <div class="card border-0 photos">
+                  <img
+                    src="images/bag.jpg"
+                    class="card-img-top"
+                    alt="Good Present"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Good Present</h5>
+                    <p class="card-text text-muted">Image</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
