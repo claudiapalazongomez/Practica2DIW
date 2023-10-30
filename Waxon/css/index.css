@@ -175,3 +175,12 @@ body {
   transform: scale(1.05); /* Escalar el elemento en un 5% al hacer hover */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agregar una sombra cuando haces hover */
 }
+
+/*TESTIMONIAL*/
+.cursive {
+  font-style: italic;
+}
+
+.smaller {
+  font-size: medium;
+}
