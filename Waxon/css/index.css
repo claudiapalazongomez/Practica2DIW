@@ -78,7 +78,7 @@ body {
   }
 
   .bg-image {
-    background-size: 100% 80%; /* Ajusta el valor según tus necesidades */
+    background-size: 100% 80%;
   }
 }
 
@@ -110,15 +110,14 @@ body {
 }
 
 .btn-custom {
-  border: 1px solid transparent;
-  border-radius: 0;
+  background-color: black;
+  color: white;
   transition: background-color 0.3s;
 }
 
 .btn-custom:hover {
   background-color: white;
   color: black;
-  border: 1px solid #343a40;
 }
 
 @media screen and (max-width: 992px) {
@@ -149,6 +148,15 @@ body {
   flex-direction: row;
 }
 
+.card-img-top {
+  transition: transform 0.3s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 /* Estilos personalizados para el icono */
 .custom-toggler-icon::before {
   content: "\2630"; /* Código Unicode del icono de hamburguesa (tres líneas) */
@@ -167,15 +175,6 @@ body {
   }
 }
 
-.photos {
-  transition: transform 0.3s;
-}
-
-.photos:hover {
-  transform: scale(1.05); /* Escalar el elemento en un 5% al hacer hover */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agregar una sombra cuando haces hover */
-}
-
 /*TESTIMONIAL*/
 .cursive {
   font-style: italic;
@@ -185,27 +184,7 @@ body {
   font-size: medium;
 }
 
-/*NEWS*/
-.card-img-top {
-  transition: transform 0.2s;
-}
-
-.card-img-top:hover {
-  transform: scale(1.1);
-}
-
 /*CONTACT*/
-.btn-custom {
-  background-color: black;
-  color: white;
-  transition: background-color 0.3s;
-}
-
-.btn-custom:hover {
-  background-color: white;
-  color: black;
-}
-
 .form-control {
   resize: none;
 }
