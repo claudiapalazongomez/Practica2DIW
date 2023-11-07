@@ -121,13 +121,6 @@ body {
   border: 2px solid black;
 }
 
-@media screen and (max-width: 992px) {
-  .bg,
-  .bg2 {
-    overflow: hidden;
-  }
-}
-
 /*PORTFOLIO*/
 .bg2 {
   font-size: 150px;
