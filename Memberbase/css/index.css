@@ -38,3 +38,9 @@ body {
   background-color: #333;
   color: #fff;
 }
+
+/* Estilos personalizados para el icono */
+.custom-toggler-icon::before {
+  content: "\2630"; /* Código Unicode del icono de hamburguesa (tres líneas) */
+  color: #000; /* Color negro para el icono con !important para forzarlo */
+}
