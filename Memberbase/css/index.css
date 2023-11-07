@@ -67,3 +67,24 @@ body {
     order: 2;
   }
 }
+
+/*FEATURED SOURCES*/
+.custom-btn2 {
+  background-color: #e2e0e0;
+}
+
+.custom-btn2 {
+  color: #5f5f5f;
+}
+
+.custom-btn2:hover {
+  background-color: #ccc;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.02);
+}
