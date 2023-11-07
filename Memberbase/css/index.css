@@ -44,3 +44,26 @@ body {
   content: "\2630"; /* Código Unicode del icono de hamburguesa (tres líneas) */
   color: #000; /* Color negro para el icono con !important para forzarlo */
 }
+
+/*PORTADA*/
+@media screen and (max-width: 768px) {
+  .hero-illustration {
+    width: 120px;
+    height: 118px;
+    float: left;
+  }
+
+  .right {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .order-sm-1 {
+    order: 1;
+  }
+
+  .order-sm-2 {
+    order: 2;
+  }
+}
