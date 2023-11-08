@@ -88,3 +88,27 @@ body {
 .card:hover {
   transform: scale(1.02);
 }
+
+/*MORE RESOURCES*/
+.background-resources {
+  background-color: #1d1d1d;
+  background-image: radial-gradient(
+      circle farthest-corner at 0% 50%,
+      rgba(255, 1, 1, 0.15),
+      transparent 47%
+    ),
+    radial-gradient(
+      circle farthest-corner at 40% 130%,
+      rgba(122, 167, 255, 0.41),
+      transparent 58%
+    );
+}
+
+.custom-btn3 {
+  background-color: #575757;
+  color: white;
+}
+.custom-btn3:hover {
+  background-color: #4b4b4b;
+  color: white;
+}
