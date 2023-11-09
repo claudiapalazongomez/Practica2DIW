@@ -147,8 +147,12 @@ body {
 }
 
 .card-img-top:hover {
-  transform: scale(1.05);
+  transform: scale(1.07);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cucu {
+  overflow: hidden;
 }
 
 /* Estilos personalizados para el icono */
