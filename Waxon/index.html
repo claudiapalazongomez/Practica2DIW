@@ -26,10 +26,12 @@
     <div class="container-fluid px-0">
       <header class="bg-image">
         <nav class="navbar">
-          <div class="container-fluid fixed-top navbar-expand-lg bg-color py-3">
-            <a href="#">
-              <img src="images/dark.png" class="small-logo" alt="Logo" />
-            </a>
+          <div class="container-fluid fixed-top navbar-expand-lg py-3 bg-white">
+            <div class="ml-5">
+              <a href="#">
+                <img src="images/dark.png" class="small-logo" alt="Logo" />
+              </a>
+            </div>
             <button
               class="navbar-toggler"
               type="button"
@@ -66,9 +68,9 @@
           </div>
         </nav>
         <div class="container infoName">
-          <h1 class="name nameStyle">BERNARD</h1>
-          <h1 class="name">SYDNEY</h1>
-          <h4 class="creative text-secondary">
+          <h1 class="name display-3 font-weight-bold nameStyle">BERNARD</h1>
+          <h1 class="name display-3 font-weight-bold">SYDNEY</h1>
+          <h4 class="creative text-secondary font-italic fw-lighter pt-4">
             Creative Web &amp; App Developer
           </h4>
         </div>
@@ -79,21 +81,23 @@
         <section class="px-5 py-5">
           <div class="container py-5" id="about">
             <div class="row">
-              <div class="col-lg-6 col-md-12">
-                <div class="left">
+              <div class="col-12 col-lg-6">
+                <div class="left ml-5">
                   <img
                     src="images/about.jpg"
                     alt="Foto de perfil de Bernard Sydney"
                   />
                 </div>
               </div>
-              <div class="col-lg-6 col-md-12">
-                <div class="right">
+              <div class="col-12 col-lg-6">
+                <div class="right mt-4">
                   <h3 class="name2">
                     <span class="bg d-none d-lg-block">ABOUT</span>
                     BERNARD SYDNEY
                   </h3>
-                  <h4 class="creative text-secondary py-1">
+                  <h4
+                    class="creative font-italic fw-lighter text-secondary py-1"
+                  >
                     Creative Web &amp; App Developer
                   </h4>
                   <hr />
@@ -112,7 +116,7 @@
                   <div class="py-5">
                     <button
                       type="button"
-                      class="btn btn-lg btn-custom py-3 px-5"
+                      class="btn btn-lg btn-custom py-3 px-5 rounded-0"
                     >
                       Learn More
                     </button>
@@ -212,18 +216,18 @@
           <div class="container py-5" id="portfolio">
             <div>
               <h3 class="name3">
-                <span class="bg2 d-none d-md-block">PORTFOLIO</span>
+                <span class="bg bg2 d-none d-md-block">PORTFOLIO</span>
                 FEATURED WORKS
               </h3>
             </div>
             <!-- SOLO SE MOSTRARÁ EN <992pix-->
-            <div>
+            <div class="d-lg-none">
               <ul class="navbar-nav listaOculta">
                 <li class="nav-item">
                   <a class="nav-link text-black px-2">All</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-black px-2">Video</a>
+                  <a class="nav-link text-black px-2">Vimeo</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-black px-2">Youtube</a>
@@ -237,7 +241,7 @@
               </ul>
             </div>
             <!-- SOLO SE MOSTRARÁ EN >992pix-->
-            <nav class="navbar">
+            <nav class="navbar d-lg-block">
               <div class="container-fluid justify-content-end">
                 <button
                   class="navbar-toggler custom-toggler"
@@ -274,12 +278,14 @@
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
               <div class="col py-3">
-                <div class="card border-0 cucu">
-                  <img
-                    src="images/cherry.jpg"
-                    class="card-img-top"
-                    alt="Sweet Cherry"
-                  />
+                <div class="card border-0">
+                  <div class="cucu">
+                    <img
+                      src="images/cherry.jpg"
+                      class="card-img-top"
+                      alt="Sweet Cherry"
+                    />
+                  </div>
                   <div class="card-body">
                     <h5 class="card-title">Sweet Cherry</h5>
                     <p class="card-text text-muted">Vimeo</p>
@@ -287,12 +293,14 @@
                 </div>
               </div>
               <div class="col py-3">
-                <div class="card border-0 cucu">
-                  <img
-                    src="images/avocado.jpg"
-                    class="card-img-top"
-                    alt="Delicious Fruit"
-                  />
+                <div class="card border-0">
+                  <div class="cucu">
+                    <img
+                      src="images/avocado.jpg"
+                      class="card-img-top"
+                      alt="Delicious Fruit"
+                    />
+                  </div>
                   <div class="card-body">
                     <h5 class="card-title">Delicious Fruit</h5>
                     <p class="card-text text-muted">Youtube</p>
@@ -300,12 +308,14 @@
                 </div>
               </div>
               <div class="col py-3">
-                <div class="card border-0 cucu">
-                  <img
-                    src="images/orange.jpg"
-                    class="card-img-top"
-                    alt="Blue Lemon"
-                  />
+                <div class="card border-0">
+                  <div class="cucu">
+                    <img
+                      src="images/orange.jpg"
+                      class="card-img-top"
+                      alt="Blue Lemon"
+                    />
+                  </div>
                   <div class="card-body">
                     <h5 class="card-title">Blue Lemon</h5>
                     <p class="card-text text-muted">Soundcloud</p>
@@ -313,12 +323,14 @@
                 </div>
               </div>
               <div class="col py-3">
-                <div class="card border-0 cucu">
-                  <img
-                    src="images/telephone.jpg"
-                    class="card-img-top"
-                    alt="Yellow Phone"
-                  />
+                <div class="card border-0">
+                  <div class="cucu">
+                    <img
+                      src="images/telephone.jpg"
+                      class="card-img-top"
+                      alt="Yellow Phone"
+                    />
+                  </div>
                   <div class="card-body">
                     <h5 class="card-title">Yellow Phone</h5>
                     <p class="card-text text-muted">Image</p>
@@ -326,12 +338,14 @@
                 </div>
               </div>
               <div class="col py-3">
-                <div class="card border-0 cucu">
-                  <img
-                    src="images/icecream.jpg"
-                    class="card-img-top"
-                    alt="Ice Cream"
-                  />
+                <div class="card border-0">
+                  <div class="cucu">
+                    <img
+                      src="images/icecream.jpg"
+                      class="card-img-top"
+                      alt="Ice Cream"
+                    />
+                  </div>
                   <div class="card-body">
                     <h5 class="card-title">Ice Cream</h5>
                     <p class="card-text text-muted">Image</p>
@@ -339,12 +353,14 @@
                 </div>
               </div>
               <div class="col py-3">
-                <div class="card border-0 cucu">
-                  <img
-                    src="images/bag.jpg"
-                    class="card-img-top"
-                    alt="Good Present"
-                  />
+                <div class="card border-0">
+                  <div class="cucu">
+                    <img
+                      src="images/bag.jpg"
+                      class="card-img-top"
+                      alt="Good Present"
+                    />
+                  </div>
                   <div class="card-body">
                     <h5 class="card-title">Good Present</h5>
                     <p class="card-text text-muted">Image</p>
@@ -360,7 +376,7 @@
           <div class="container py-5">
             <div>
               <h3 class="name3">
-                <span class="bg2">TESTIMONIAL</span>
+                <span class="bg bg2">TESTIMONIAL</span>
                 WHAT CLIENTS SAY
               </h3>
             </div>
@@ -377,16 +393,16 @@
                   </table>
                 </div>
                 <div class="card-body row">
-                  <div class="col-5">
+                  <div class="col-sm-3 col-md-5">
                     <img
                       src="images/steve.jpg"
                       class="rounded-circle"
                       alt="Steve Collins Photo"
                     />
                   </div>
-                  <div class="col-7">
-                    <h5 class="smaller">Steve Collins</h5>
-                    <p class="card-text small text-muted cursive">Blogs</p>
+                  <div class="col-sm-9 col-md-7">
+                    <h5 class="creative">Steve Collins</h5>
+                    <p class="card-text small text-muted font-italic">Blogs</p>
                   </div>
                 </div>
               </div>
@@ -410,8 +426,8 @@
                     />
                   </div>
                   <div class="col-7">
-                    <h5 class="smaller">Jessica Parker</h5>
-                    <p class="card-text small text-muted cursive">
+                    <h5 class="creative">Jessica Parker</h5>
+                    <p class="card-text small text-muted font-italic">
                       Vivaco Studio
                     </p>
                   </div>
@@ -437,8 +453,10 @@
                     />
                   </div>
                   <div class="col-7">
-                    <h5 class="smaller">David Jonson</h5>
-                    <p class="card-text small text-muted cursive">ABC Studio</p>
+                    <h5 class="creative">David Jonson</h5>
+                    <p class="card-text small text-muted font-italic">
+                      ABC Studio
+                    </p>
                   </div>
                 </div>
               </div>
@@ -451,18 +469,20 @@
           <div class="container py-5" id="news">
             <div>
               <h3 class="name3">
-                <span class="bg2">NEWS</span>
+                <span class="bg bg2">NEWS</span>
                 LATEST NEWS
               </h3>
             </div>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 py-5">
               <div class="col py-3">
-                <div class="card cucu">
-                  <img
-                    src="images/news1.jpg"
-                    class="card-img-top"
-                    alt="Paisaje de un río"
-                  />
+                <div class="card">
+                  <div class="cucu">
+                    <img
+                      src="images/news1.jpg"
+                      class="card-img-top"
+                      alt="Paisaje de un río"
+                    />
+                  </div>
                   <div class="card-body">
                     <p class="card-text small text-muted cursive">
                       By Alex Watson / Sep 27, 2023
@@ -475,12 +495,14 @@
                 </div>
               </div>
               <div class="col py-3">
-                <div class="card cucu">
-                  <img
-                    src="images/news2.jpg"
-                    class="card-img-top"
-                    alt="Pizarra con los continentes dibujados y un avión de juguete"
-                  />
+                <div class="card">
+                  <div class="cucu">
+                    <img
+                      src="images/news2.jpg"
+                      class="card-img-top"
+                      alt="Pizarra con los continentes dibujados y un avión de juguete"
+                    />
+                  </div>
                   <div class="card-body">
                     <p class="card-text small text-muted cursive">
                       By Bona Green / Sep 22, 2023
@@ -493,12 +515,14 @@
                 </div>
               </div>
               <div class="col py-3">
-                <div class="card cucu">
-                  <img
-                    src="images/news3.jpg"
-                    class="card-img-top"
-                    alt="Bombilla apagada"
-                  />
+                <div class="card">
+                  <div class="cucu">
+                    <img
+                      src="images/news3.jpg"
+                      class="card-img-top"
+                      alt="Bombilla apagada"
+                    />
+                  </div>
                   <div class="card-body">
                     <p class="card-text small text-muted cursive">
                       By Ave Smith / August 30, 2023
@@ -519,7 +543,7 @@
           <div class="container py-5" id="contact">
             <div>
               <h3 class="name3">
-                <span class="bg2">CONTACT</span>
+                <span class="bg bg2">CONTACT</span>
                 GET IN TOUCH
               </h3>
             </div>
@@ -561,7 +585,7 @@
                   </div>
                   <button
                     type="submit"
-                    class="btn btn-lg btn-custom w-100 pt-3 pb-3"
+                    class="btn btn-lg btn-custom w-100 pt-3 pb-3 rounded-0"
                   >
                     Send Message
                   </button>
